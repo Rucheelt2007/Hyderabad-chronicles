@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Hyderabad Chronicles</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <header class="sticky-top bg-white shadow-sm">
+    <nav class="container navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <!-- Replace logo below -->
+        <img src="images/logo.png" alt="Logo (replace)" class="brand-logo me-2" />
+        <span class="fw-bold">Hyderabad Chronicles</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavAbout">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavAbout">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-5 flex-grow-1">
+    <div class="row g-4">
+      <div class="col-lg-8">
+        <h1 class="h2">About this site</h1>
+        <p class="lead text-muted">We are a small team of Hyderabad locals and travelers who built this site to make planning simple, practical and delightful. Think of this as a curated, friendly guide — professional in quality, humble in tone.</p>
+
+        <p class="text-muted">This site curates the city’s top attractions, hidden gems, signature dishes and practical suggestions for morning treks, evening experiences and late-night food. Everything is presented in a label-first format so you can scan quickly and save what matters to you.</p>
+      </div>
+
+      <aside class="col-lg-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title mb-3">What we provide</h5>
+            <ul class="list-unstyled small text-muted">
+              <li>✨ Curated lists for quick planning</li>
+              <li>🍴 Trusted food recommendations</li>
+              <li>🧭 Practical time-of-day suggestions</li>
+              <li>📞 Contact for itineraries & map pins</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="bg-white border-top mt-auto">
+    <div class="container py-3 d-flex justify-content-between small text-muted">
+      <div>© <span id="year2"></span>Hyderabad Chronicles</div>
+      <div>Built with local love</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

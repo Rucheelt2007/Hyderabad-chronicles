@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hyderabad Chronicles — Home</title>
+
+  <!-- BOOTSTRAP 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <meta name="description" content="Discover Hyderabad — places to visit, must-try foods, treks and nightlife. Professional travel guide with curated labels." />
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- NAVBAR -->
+  <header class="sticky-top bg-white shadow-sm">
+    <nav class="container navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <!-- ADD LOGO HERE -->
+        <!-- Example: <img src="images/logo.png" alt="Logo" class="brand-logo me-2"> -->
+        <img src="images/logo.png" alt="Logo" class="brand-logo me-2" />
+        <span class="fw-bold">Hyderabad Chronicles</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero-section" style="--hero-img: url('images/charminar3.png')">
+    <!-- ADD YOUR BACKGROUND IMAGE:
+         Put your hero image in images/ and update the filename above (charminar-hero.jpg) -->
+    <div class="overlay"></div>
+    <div class="container hero-content py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-7 text-white">
+          <h1 class="display-5 fw-bold">Welcome to Hyderabad</h1>
+          <p class="lead mb-4">A city where royal history, legendary food and modern energy meet — from the lanes around Charminar to the tech hubs of Hi-Tech City. Friendly people, deep flavours and places that stay with you.</p>
+          <div class="d-flex gap-2">
+            <a class="btn btn-primary btn-lg" href="services.html">Explore must-visits & foods</a>
+            <a class="btn btn-outline-light btn-lg" href="contact.html">Request an itinerary</a>
+          </div>
+        </div>
+
+        <aside class="col-lg-4 offset-lg-1 d-none d-lg-block">
+          <div class="slogan-card p-3 rounded-3">
+            <div class="fw-bold">“Where Biryani Meets Business.”</div>
+            <div class="text-muted small">“Pearls, Palaces & Progress.”</div>
+            <div class="text-muted small">“Find your flavour, find Hyderabad.”</div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK HIGHLIGHTS -->
+  <main class="container my-5 flex-grow-1">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Heritage & Architecture</h5>
+            <p class="card-text text-muted">Charminar, Golconda Fort, Chowmahalla and Falaknuma reflect Hyderabad’s royal past and craftsmanship.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Food Culture</h5>
+            <p class="card-text text-muted">Hyderabad is world-famous for its biryani, haleem and Irani chai — local cafés and dosa shops sit alongside royal kitchens.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Modern Energy</h5>
+            <p class="card-text text-muted">From Ramoji Film City to IT corridors, Hyderabad blends old-world charm with modern entertainment and nightlife.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="mt-5">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-6">
+          <img src="images/golconda.png" alt="Golconda Fort" class="img-fluid rounded shadow-sm">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="h3">Why visit?</h2>
+          <p class="text-muted">Hyderabad rewards every kind of visitor — food lovers, history fans, shopaholics and night owls. Streets, markets and rooftop cafés reveal different parts of the city at different hours. Whether it’s a family trip or a solo quick stop, Hyderabad offers compact, memorable experiences.</p>
+          <p class="text-muted small">Slogan: “From Charminar to Cyber Towers — Hyderabad Has It All.”</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 newsletter-card p-4 rounded-3 bg-light d-flex justify-content-between align-items-center">
+      <div>
+        <h3 class="h5 mb-1">Want a short, printable plan?</h3>
+        <p class="mb-0 text-muted">Use Contact to request a 1-day or 3-day itinerary tailored to your tastes (food-first, heritage-first or mix).</p>
+      </div>
+      <a class="btn btn-primary" href="contact.html">Request itinerary</a>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-white border-top mt-auto">
+    <div class="container py-3 d-flex justify-content-between small text-muted">
+      <div>© <span id="year"></span>Hyderabad Chronicles</div>
+      <div>Built with local love • <span class="d-none d-sm-inline"></span></div>
+    </div>
+  </footer>
+
+  <!-- BOOTSTRAP 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
